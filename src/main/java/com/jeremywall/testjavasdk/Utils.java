@@ -5,6 +5,6 @@ public class Utils {
     if (name == null) {
       return "Hello";
     }
-    return "Hello " + name;
+    return "Hello "+name;
   }
 }
