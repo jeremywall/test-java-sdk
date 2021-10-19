@@ -3,12 +3,7 @@ package com.jeremywall.testjavsdk;
 public class SignatureCalculator {
 
   private enum ApiCall {
-    STATIONS,
-    NODES,
-    SENSORS,
-    SENSOR_ACTIVITY,
-    SENSOR_CATALOG,
-    ;
+    STATIONS,NODES,SENSORS,SENSOR_ACTIVITY,SENSOR_CATALOG;
   }
 
   public String calculateStationsSignature(
